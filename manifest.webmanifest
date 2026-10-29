@@ -1,0 +1,10 @@
+{
+  "name": "Mission 6 mois",
+  "short_name": "Mission 6M",
+  "description": "Tableau de bord personnel de défis sur six mois",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#081322",
+  "icons": []
+}
