@@ -11,6 +11,56 @@
 :root{--bg:#07111f;--panel:#0d1b2d;--panel2:#10233a;--line:#203752;--text:#edf4ff;--muted:#9db0ca;--blue:#43b7ff;--gold:#ffc857;--green:#46dfa0;--pink:#ee83d4;--red:#ff8b78}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% 0%,#142c48 0%,var(--bg) 50%);color:var(--text);font:15px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}button,input{font:inherit}button{cursor:pointer}.shell{max-width:1180px;margin:auto;padding:18px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:18px}.sidebar,.panel,.topcard,.stat{background:rgba(13,27,45,.94);border:1px solid var(--line);border-radius:17px}.sidebar{padding:20px;height:fit-content;position:sticky;top:12px}.brand{font-size:21px;font-weight:900;letter-spacing:.04em;line-height:1.1}.tagline{color:var(--muted);font-style:italic;margin:12px 0 24px}.nav{display:grid;gap:7px}.nav button{background:transparent;color:#cbd9eb;border:1px solid transparent;text-align:left;padding:11px;border-radius:10px}.nav button.active,.nav button:hover{background:#183251;border-color:#28527b;color:white}.side-note{color:var(--muted);font-size:12px;margin-top:28px}.main{min-width:0}.header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:2px 0 16px}.header h1{font-size:26px;margin:0}.sub{color:var(--muted);margin-top:3px}.pill{border:1px solid #34516e;border-radius:12px;padding:9px 12px;color:#d6e7fb;white-space:nowrap}.hero{display:grid;grid-template-columns:1fr auto;gap:16px;padding:20px;background:linear-gradient(120deg,#112b48,#0c1a2b);border:1px solid #285075;border-radius:18px}.level{display:flex;align-items:center;gap:15px}.emblem{width:70px;height:70px;border-radius:20px;display:grid;place-items:center;background:linear-gradient(135deg,#ffdf7b,#b77b12);color:#142035;font-size:25px;font-weight:900;box-shadow:0 0 25px #ffbf4a25}.xpnum{font-size:27px;font-weight:850}.muted{color:var(--muted)}.progress{height:11px;background:#233a54;border-radius:99px;overflow:hidden;margin:10px 0 7px}.progress span{height:100%;display:block;background:linear-gradient(90deg,#329cff,#4dd3ff);border-radius:99px;transition:width .25s}.reward{border:1px solid #916b2c;border-radius:13px;padding:13px;min-width:165px;align-self:center}.reward strong{display:block;color:var(--gold);margin-bottom:5px}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:13px 0}.stat{padding:13px}.stat .label{color:var(--muted);font-size:12px}.stat .value{font-size:22px;font-weight:800;margin-top:3px}.grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(240px,.8fr);gap:14px}.panel{padding:17px;margin-bottom:14px}.panel h2{font-size:18px;margin:0 0 13px}.weeknav{display:flex;gap:8px;align-items:center;margin-bottom:14px}.weeknav button,.btn{background:#163454;color:var(--text);border:1px solid #315679;border-radius:10px;padding:9px 12px}.weeknav select,select{background:#0a192a;color:var(--text);border:1px solid #34516e;border-radius:9px;padding:9px;max-width:100%}.quest{border:1px solid var(--line);border-radius:13px;padding:13px;margin:10px 0;background:#0a1727}.questhead{display:flex;gap:10px;align-items:flex-start}.qicon{width:38px;height:38px;display:grid;place-items:center;border-radius:12px;background:#193c59;font-size:19px;flex-shrink:0}.quest h3{margin:0;font-size:15px}.quest p{margin:5px 0 10px;color:#b2c2d7;font-size:13px}.questfoot{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}.xpbadge{color:var(--gold);font-weight:800}.status{font-size:12px;color:var(--muted)}.complete{border-color:#287d64}.complete .qicon{background:#16513e}.donebtn{background:#173e37;color:#79f0bd;border:1px solid #287d64;border-radius:9px;padding:7px 10px}.undobtn{background:#3a2630;color:#ffb1a4;border:1px solid #73414a;border-radius:9px;padding:7px 10px}.sideitem{padding:11px 0;border-bottom:1px solid var(--line)}.sideitem:last-child{border-bottom:0}.sideitem strong{display:block}.sideitem small{color:var(--muted)}.chip{display:inline-block;border-radius:99px;padding:3px 8px;font-size:11px;background:#1b3450;color:#d3eaff;margin-bottom:5px}.categorybars{display:grid;gap:12px}.barrow{display:grid;grid-template-columns:125px 1fr 38px;gap:8px;align-items:center;font-size:12px}.mini{height:8px;border-radius:99px;background:#243a52;overflow:hidden}.mini span{display:block;height:100%;background:var(--blue)}.monthlist{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px}.month{padding:10px;border:1px solid var(--line);border-radius:11px;background:#0a1727;font-size:12px}.month strong{display:block}.month.active{border-color:var(--blue);background:#102a43}.field{display:grid;gap:5px;margin:12px 0}.field label{color:var(--muted);font-size:13px}.field input{background:#081727;color:white;border:1px solid #34516e;padding:10px;border-radius:9px;width:100%}.actions{display:flex;gap:8px;flex-wrap:wrap}.danger{border-color:#7a3942;background:#321c28}.hidden{display:none!important}.notice{background:#102a38;border:1px solid #285d6b;border-radius:11px;padding:11px;color:#b9e9f2;font-size:13px}.footer{color:var(--muted);font-size:12px;text-align:center;padding:12px}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#e5fff4;color:#063524;padding:11px 16px;border-radius:12px;box-shadow:0 8px 30px #0006;z-index:5}
 @media(max-width:850px){.shell{grid-template-columns:1fr;padding:10px}.sidebar{position:static;padding:13px}.brand{font-size:18px}.tagline,.side-note{display:none}.nav{display:flex;overflow:auto;margin-top:12px}.nav button{white-space:nowrap;padding:8px 10px}.grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{grid-template-columns:1fr}.reward{min-width:0}.monthlist{grid-template-columns:repeat(3,minmax(0,1fr))}.header h1{font-size:22px}.xpnum{font-size:24px}}
+
+/* Mise en page dédiée aux téléphones */
+@media (max-width: 600px) {
+  html { -webkit-text-size-adjust: 100%; }
+  body { font-size: 14px; padding-bottom: env(safe-area-inset-bottom); }
+  .shell { display:block; width:100%; max-width:100%; padding:8px; }
+  .sidebar { position:static; top:auto; padding:12px; margin-bottom:10px; border-radius:14px; }
+  .brand { font-size:17px; display:inline-block; line-height:1.05; }
+  .nav { display:flex; gap:6px; overflow-x:auto; overscroll-behavior-x:contain; padding:8px 0 2px; margin:0; scrollbar-width:thin; }
+  .nav button { flex:0 0 auto; white-space:nowrap; font-size:12px; padding:9px 11px; min-height:40px; }
+  .main { width:100%; min-width:0; }
+  .header { align-items:flex-start; margin:8px 2px 12px; gap:8px; }
+  .header h1 { font-size:21px; line-height:1.15; }
+  .sub { font-size:12px; }
+  .pill { font-size:11px; padding:7px 8px; }
+  .hero { grid-template-columns:minmax(0,1fr); padding:14px; gap:12px; }
+  .level { gap:10px; }
+  .emblem { width:54px; height:54px; border-radius:15px; font-size:21px; }
+  .xpnum { font-size:23px; }
+  .reward { width:100%; padding:11px; }
+  .stats { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin:9px 0; }
+  .stat { min-width:0; padding:10px; }
+  .stat .label { font-size:11px; }
+  .stat .value { font-size:19px; overflow-wrap:anywhere; }
+  .grid { grid-template-columns:minmax(0,1fr); gap:0; }
+  .panel { padding:13px; margin-bottom:10px; border-radius:14px; }
+  .panel h2 { font-size:16px; }
+  .weeknav { flex-wrap:wrap; }
+  .weeknav select { flex:1 1 150px; min-width:0; }
+  .quest { padding:11px; }
+  .questhead { gap:8px; }
+  .quest h3 { font-size:14px; }
+  .quest p { font-size:12px; }
+  .questfoot { align-items:flex-start; }
+  .donebtn,.undobtn,.btn,.weeknav button { min-height:40px; }
+  .monthlist { grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; }
+  .month { min-width:0; padding:9px; overflow-wrap:anywhere; }
+  .barrow { grid-template-columns:82px minmax(0,1fr) 32px; gap:6px; }
+  .actions { gap:7px; }
+  .actions button { min-height:42px; }
+  input,select,button { max-width:100%; }
+  .footer { font-size:11px; }
+}
+@media (max-width: 360px) {
+  .shell { padding:6px; }
+  .header h1 { font-size:19px; }
+  .pill { white-space:normal; text-align:center; }
+  .stat .value { font-size:17px; }
+  .monthlist { grid-template-columns:1fr 1fr; }
+}
 </style>
 </head>
 <body>
